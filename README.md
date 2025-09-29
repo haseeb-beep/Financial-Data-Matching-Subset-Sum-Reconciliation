@@ -1,4 +1,4 @@
-his project implements a multi-part assignment analyzing financial transaction data against target amounts. It covers dataset preparation, exact and approximate matching, dynamic programming solutions, machine learning integration, and performance benchmarking.
+This project implements a multi-part assignment analyzing financial transaction data against target amounts. It covers dataset preparation, exact and approximate matching, dynamic programming solutions, machine learning integration, and performance benchmarking.
 
 The main problem revolves around Subset Sum Matching:
 
