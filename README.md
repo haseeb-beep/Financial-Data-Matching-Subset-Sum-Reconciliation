@@ -1,77 +1,78 @@
-Financial Data Subset Sum Analysis
+his project implements a multi-part assignment analyzing financial transaction data against target amounts. It covers dataset preparation, exact and approximate matching, dynamic programming solutions, machine learning integration, and performance benchmarking.
 
-## 📌 Project Overview
-This project implements a **multi-part assignment** that analyzes financial transaction data against target amounts.  
-The tasks include dataset preparation, exact/approximate matching, dynamic programming solutions, machine learning integration, and performance benchmarking.
+The main problem revolves around Subset Sum Matching:
 
-The main problem revolves around **Subset Sum Matching**:
-- Given a list of transactions (credits/debits), determine whether a combination of them matches a target (e.g., invoice or payment request).
-## ⚙️ Requirements
-- Python 3.8+
-- Libraries:
-  ```bash
-  pip install pandas numpy matplotlib scikit-learn openpyxl
-  📝 Assignment Parts
+Given a list of transactions (credits/debits), determine whether a combination matches a target (e.g., invoice or payment request).
+
+⚙️ Requirements
+
+Python 3.8+
+
+Libraries:pip install pandas numpy matplotlib scikit-learn openpyxl
+
+Assignment Parts
 Part 1 – Dataset Preparation
 
-Input: Raw ledger & bank data.
+Input: Raw ledger & bank data
 
 Output: cleaned_financial_data.xlsx with two sheets:
 
-Transactions (Transaction ID, Transaction Amount)
+Transactions (Transaction ID, Amount)
 
-Targets (Target ID, Target Amount)
+Targets (Target ID, Amount)
 
-Ensures the data format is clean and ready for matching.
+Ensures data is standardized and ready for matching.
 
 Part 2 – Brute Force Subset Sum
 
-Implements exhaustive search to find:
+Implements exhaustive search for:
 
 Exact matches (Transaction sums == Target)
 
-Subset sum results.
+Subset sum combinations
 
-Outputs results to part2_bruteforce_results.xlsx.
+Saves results to part2_bruteforce_results.xlsx
 
-Provides execution time for brute force.
+Reports execution time for brute force.
 
 Part 3 – Dynamic Programming Approach
 
-Implements DP-based Subset Sum (efficient memory-optimized version).
+Efficient, memory-optimized DP subset sum solution
 
-Handles large transaction datasets without memory errors.
+Handles larger datasets without memory issues
 
-Saves results to part3_ml_results.xlsx.
+Saves results to part3_dp_results.xlsx.
 
 Part 4 – Machine Learning Integration
 
-Creates a feature-engineered dataset of transactions vs. targets.
+Feature engineering of transactions vs. targets
 
-Trains ML models to predict likelihood of matches.
+Trains ML models to predict match likelihood
 
-Uses classification metrics and visualizations (accuracy, confusion matrix).
+Evaluates with accuracy and confusion matrix
 
-Output: Graphs and ml_results.xlsx.
+Outputs graphs + ml_results.xlsx.
 
 Part 5 – Benchmarking & Visualization
 
-Compares Brute Force vs Dynamic Programming in terms of:
+Compares brute force vs. DP on:
+
 Execution time
+
 Scalability
-Generates bar charts & line plots for performance visualization.
 
-Output: Benchmarking plots + benchmark_results.xlsx.
-
+Generates bar charts, line plots, and benchmarking reports.
 
 ✨ Key Learnings
 
-How brute force and DP differ in computational complexity.
-How ML can approximate subset sum problems.
-How to benchmark algorithms with real-world data.
-Data cleaning and preprocessing for financial analysis.
+Difference in complexity between brute force and DP
+
+How ML can approximate subset sum problems
+
+Benchmarking algorithms with real-world financial data
+
+Preprocessing and cleaning datasets for analysis
 
 👨‍💻 Author
 
-Maryam Ijaz
-
+Syed Haseeb Haider
